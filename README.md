@@ -1,3 +1,3 @@
 # product
-Please uccess from fllowing URL.
+Please access from fllowing URL.
 https://el2-activiry-product.herokuapp.com/
