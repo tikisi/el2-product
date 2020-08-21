@@ -15,6 +15,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 		tpl := template.Must(template.ParseFiles("index.tpl"))
 		tpl.Execute(w, nil)
 	} else if r.Method == "POST" {
+		fmt.Println("posted")
 		tpl := template.Must(template.ParseFiles("index.tpl"))
 
 		r.ParseForm()
