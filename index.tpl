@@ -27,7 +27,7 @@
 			<button type="submit" class="btn btn-primary"> Colorize </button>
 		</form>
 		<div class="panel panel-primary">
-			<div class="panel-heading">Colorized Text</div>
+			<div class="panel-heading">Past tense colorized</div>
 			<div class="panel-body">
 				<p>{{.ColorizedText}}</p>
 			</div>
